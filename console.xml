@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <settings>
-	<console change_refresh="10" refresh="100" rows="40" columns="80" buffer_rows="500" buffer_columns="0" shell="&quot;C:\Windows\System32\cmd.exe&quot; /K &quot;C:\Users\user\Desktop\My PortableApp\Console2\autorun.cmd&quot;" init_dir="" start_hidden="0" save_size="0">
+	<console change_refresh="10" refresh="100" rows="40" columns="80" buffer_rows="500" buffer_columns="0" shell="&quot;C:\Windows\System32\cmd.exe&quot; /K &quot;C:\Users\p004149a\Desktop\My PortableApp\Console2\autorun.cmd&quot;" init_dir="" start_hidden="0" save_size="0">
 		<colors>
 			<color id="0" r="0" g="0" b="0"/>
 			<color id="1" r="0" g="0" b="128"/>
@@ -30,10 +30,10 @@
 			<selection_color r="255" g="255" b="255"/>
 		</styles>
 		<position x="-1" y="-1" dock="-1" snap="0" z_order="0" save_position="0"/>
-		<transparency type="1" active_alpha="225" inactive_alpha="188" r="0" g="0" b="0"/>
+		<transparency type="0" active_alpha="225" inactive_alpha="188" r="0" g="0" b="0"/>
 	</appearance>
 	<behavior>
-		<copy_paste copy_on_select="0" clear_on_copy="1" no_wrap="1" trim_spaces="1" copy_newline_char="0" sensitive_copy="1"/>
+		<copy_paste copy_on_select="1" clear_on_copy="1" no_wrap="1" trim_spaces="1" copy_newline_char="0" sensitive_copy="1"/>
 		<scroll page_scroll_rows="0"/>
 		<tab_highlight flashes="3" stay_highligted="1"/>
 	</behavior>
@@ -90,6 +90,15 @@
 		</actions>
 	</mouse>
 	<tabs>
+		<tab title="Solid background" use_default_icon="0">
+			<console shell="&quot;C:\Windows\System32\cmd.exe&quot; /K &quot;C:\Users\p004149a\Desktop\My PortableApp\Console2\autorun.cmd&quot;" init_dir="" run_as_user="0" user=""/>
+			<cursor style="0" r="255" g="255" b="255"/>
+			<background type="0" r="7" g="54" b="66">
+				<image file="" relative="0" extend="0" position="0">
+					<tint opacity="0" r="0" g="0" b="0"/>
+				</image>
+			</background>
+		</tab>
 		<tab title="Console2" use_default_icon="0">
 			<console shell="" init_dir="" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
